@@ -1,8 +1,8 @@
 public class Post {
     public int imageId;
-    public String discription;
-    public Post(int imageId,String discription){
+    public String message;
+    public Post(int imageId,String message){
         this.imageId=imageId;
-        this.discription=discription;
+        this.message=message;
     }
 }

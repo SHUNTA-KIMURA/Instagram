@@ -2,7 +2,12 @@
 <android.support.constraint.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="match_parent">
-    <LinearLayout
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="5px"
+        android:layout_marginLeft="5px">
+     <LinearLayout
         android:orientation="vertical"
         android:layout_height="wrap_content"
         android:layout_width="match_parent">
@@ -10,16 +15,11 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/image" />
-       <RelativeLayout
-           android:layout_width="match_parent"
-           android:layout_height="wrap_content"
-           android:layout_marginRight="5px"
-           android:layout_marginLeft="5px">
            <TextView
-               android:id="@+id/discription"
+               android:id="@+id/message"
                android:layout_width="match_parent"
                android:layout_height="wrap_content" />
-       </RelativeLayout>
-    </LinearLayout>
+      </LinearLayout>
+    </RelativeLayout>
 
 </android.support.constraint.ConstraintLayout>
